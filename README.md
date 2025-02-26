@@ -50,7 +50,7 @@ This project implements **image steganography**, allowing users to securely hide
 Make sure you have **Python 3+** installed. If not, download and install it from [Python’s official website](https://www.python.org/downloads/).  
 
 ### 2️⃣ Install Required Libraries  
-Use the following command to install OpenCV:
+Use the following command to install OpenCV:  
 pip install opencv-python
 
 ---
@@ -61,7 +61,7 @@ pip install opencv-python
 Run the script and provide the image file name (e.g., Kali.jpg).
 Enter your secret message that you want to hide.
 Set a password for decryption security.
-The script will encode the message and generate an encrypted image (encryptedImage.jpg).
+The script will encode the message and generate an encrypted image (**encryptedImage.jpg**).
 
 ### 2️⃣ Retrieving the Hidden Message
 Run the script again and enter the password for decryption.
