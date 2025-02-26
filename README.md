@@ -74,7 +74,7 @@ If the password is incorrect, access is denied.
 
 🎯 Feel free to fork, modify, and submit a pull request! 🚀
 
-### 📢 Ways to Contribute:
+### 📢 Ways to Contribute
 ✅ Improve encryption algorithms for better security
 ✅ Optimize performance for large images
 ✅ Create a user-friendly Graphical Interface (GUI)
