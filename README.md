@@ -1,6 +1,6 @@
 # 🔒 Secure Data Hiding in Images Using Steganography 🖼  
 
-![Steganography](https://dtm.uk/gif-steganography/)  
+![Steganography](https://dtm.uk/content/images/2023/09/gif_blog_image_6.gif)  
 
 ## 📌 Overview  
 This project implements **image steganography**, allowing users to securely hide and retrieve secret messages within an image. Unlike traditional encryption, which makes the presence of secret data obvious, **steganography keeps the hidden message undetectable** within the image pixels.  
