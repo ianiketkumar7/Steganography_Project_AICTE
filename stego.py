@@ -4,8 +4,8 @@ import string
 
 img = cv2.imread("Kali.jpg") # Replace with the correct image path
 
-msg = input("Enter secret message:")
-password = input("Enter a passcode:")
+msg = input("Enter your secret message: ")
+password = input("Enter your code: ")
 
 d = {}
 c = {}
@@ -32,13 +32,13 @@ n = 0
 m = 0
 z = 0
 
-pas = input("Enter passcode for Decryption")
+pas = input("Enter passcode for Decryption: ")
 if password == pas:
     for i in range(len(msg)):
         message = message + c[img[n, m, z]]
         n = n + 1
         m = m + 1
         z = (z + 1) % 3
-    print("Decryption message:", message)
+    print("Decryption message: ", message)
 else:
-    print("YOU ARE NOT auth")
+    print("YOU ARE NOT AUTHENTIC TO SEE THE MESSAGE.")
