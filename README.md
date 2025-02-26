@@ -1,4 +1,4 @@
-# 🔒 Secure Data Hiding in Images Using Steganography 🖼  
+# 🔒 Secure Data Hiding in Images Using Steganography   
 
 ![Steganography](https://dtm.uk/content/images/2023/09/gif_blog_image_6.gif)  
 
