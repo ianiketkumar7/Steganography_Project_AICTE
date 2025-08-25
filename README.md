@@ -51,7 +51,7 @@ Make sure you have **Python 3+** installed. If not, download and install it from
 
 ### 2️⃣ Install Required Libraries  
 Use the following command to install OpenCV:  
-pip install opencv-python
+$ pip install opencv-python
 
 ---
 
