@@ -96,53 +96,6 @@ pip install opencv-python
 
 ---
 
-## 💻 Code Structure
-
-```python
-import cv2
-import os
-import string
-
-# Load your image (update path as needed)
-img = cv2.imread("Kali.jpg")  # Replace with your image path
-
-# User inputs
-msg = input("Enter your secret message: ")
-password = input("Enter your code: ")
-
-# Character encoding dictionaries
-d = {}  # char to ASCII
-c = {}  # ASCII to char
-for i in range(255):
-    d[chr(i)] = i
-    c[i] = chr(i)
-
-# Embed message in image pixels
-m, n, z = 0, 0, 0
-for i in range(len(msg)):
-    img[n, m, z] = d[msg[i]]
-    n, m = n + 1, m + 1
-    z = (z + 1) % 3
-
-# Save encrypted image
-cv2.imwrite("encryptedImage.jpg", img)
-
-# Decrypt and verify
-pas = input("Enter passcode for Decryption: ")
-if password == pas:
-    message = ""
-    n, m, z = 0, 0, 0
-    for i in range(len(msg)):
-        message += c[img[n, m, z]]
-        n, m = n + 1, m + 1
-        z = (z + 1) % 3
-    print("Decryption message:", message)
-else:
-    print("YOU ARE NOT AUTHENTIC TO SEE THE MESSAGE.")
-```
-
----
-
 ## 🎉 Project Success Highlights
 
 ✅ **Cross-platform compatibility confirmed** - Works flawlessly on Linux, macOS, and Windows  
