@@ -13,11 +13,11 @@ This project implements **image steganography**, allowing users to securely hide
 ---
 
 ## 🚀 Key Features  
-✅ **Dual-Layer Security** – Message encoding + password protection  
-✅ **Undetectable Message Hiding** – Data is concealed inside image pixels  
-✅ **Minimal Image Distortion** – No noticeable changes to the original image  
-✅ **Fast & Lightweight** – Runs efficiently with minimal system resources  
-✅ **Cross-Platform Compatibility** – Works on Windows, Linux, and macOS  
+~ **Dual-Layer Security** – Message encoding + password protection  
+~ **Undetectable Message Hiding** – Data is concealed inside image pixels  
+~ **Minimal Image Distortion** – No noticeable changes to the original image  
+~ **Fast & Lightweight** – Runs efficiently with minimal system resources  
+~ **Cross-Platform Compatibility** – Works on Windows, Linux, and macOS  
 
 ---
 
