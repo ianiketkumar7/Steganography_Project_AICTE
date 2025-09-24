@@ -129,20 +129,14 @@ Feel free to open an issue on GitHub if you find any bugs or have cool ideas for
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 ## 🚀 Ready to Start Hiding Secrets? 
 
 Clone this repo, follow the setup instructions, and start exploring the fascinating world of digital steganography. Remember: with great power comes great responsibility - use this knowledge ethically!
 
 ```bash
-git clone https://github.com/yourusername/steganography-project.git
-cd steganography-project
-python3 steganography.py
+git clone https://github.com/ianiketkumar7/Steganography_Project_AICTE.git
+cd Steganography_Project_AICTE
+python3 stego.py
 ```
 
 Happy coding and stay secure! 🔒✨
